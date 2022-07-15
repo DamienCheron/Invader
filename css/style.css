@@ -1,0 +1,41 @@
+
+
+.configuration{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272bad;
+}
+
+.configuration input {
+    padding: 12px;
+    border: 0;
+    width: 200px;
+    margin-right: 2px;
+}
+
+.configuration button {
+    color: #fff;
+    background: #9957E4;
+    padding: 12px;
+    border: 0;
+    width: 200px;
+    margin-right: 2px;
+}
+
+#invader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 150px);
+    background:linear-gradient(45deg, #3c40c6, #6d57cf 100%);
+}
+
+.pixel{
+    background: #9fbcf9;
+    border: 1px solid rgb(68, 68, 68);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
