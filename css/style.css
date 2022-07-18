@@ -1,11 +1,9 @@
-
-
-.configuration{
-    height: 150px;
+.configuration {
     display: flex;
+    height: 150px;
     align-items: center;
     justify-content: center;
-    background-color: #272bad;
+    background: #272bad;
 }
 
 .configuration input {
@@ -16,12 +14,13 @@
 }
 
 .configuration button {
-    color: #fff;
-    background: #9957E4;
     padding: 12px;
     border: 0;
     width: 200px;
     margin-right: 2px;
+    color: #fff;
+    background: #9957E4;
+    cursor: pointer;
 }
 
 #invader {
@@ -29,13 +28,29 @@
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - 150px);
-    background:linear-gradient(45deg, #3c40c6, #6d57cf 100%);
+    background: linear-gradient(45deg, #3c40c6 0%, #6d57cf 100%);
 }
 
-.pixel{
-    background: #9fbcf9;
-    border: 1px solid rgb(68, 68, 68);
+.pixel {
+    background: #9FBCF9;
+    border: 1px solid #333;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.pixel.plain {
+    background: black;
+}
+
+.pixel.empty {
+    background: #9FBCF9;
+}
+
+.pixel.light {
+    background: #ffc048;
+}
+
+.pixel.highlight {
+    background: #F0F;
 }
